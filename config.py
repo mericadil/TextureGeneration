@@ -87,6 +87,10 @@ flags.DEFINE_integer('triplet', 1, 'use triplet or not')
 
 flags.DEFINE_bool('use_real_background', True, 'whether use real background or no background')
 
+#Newly added for texformer comparison
+ra_body_path = '/auto/k2/adundar/3DSynthesis/data/texformer/meta/ra_body.pkl'
+VERTEX_TEXTURE_FILE = '/auto/k2/adundar/3DSynthesis/data/texformer/meta/vertex_texture.npy'
+cube_parts_path = '/auto/k2/adundar/3DSynthesis/data/texformer/meta/cube_parts_12.npy'
 # -------------------------------------finish training parameters----------------------------------------
 
 SMPL_OBJ = 'smpl/models/body.obj'
